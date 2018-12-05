@@ -1,4 +1,4 @@
-const User = require('./User');
-const Product = require('./Product');
+import User from "./User";
+import Product from "./Product";
 
-module.exports = { User, Product };
+export default {User, Product};
